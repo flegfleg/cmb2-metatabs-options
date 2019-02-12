@@ -1,5 +1,5 @@
 {
-  "name": "rogerlos/cmb2-metatabs-options",
+  "name": "flegfleg/cmb2-metatabs-options",
   "description": "Extends CMB2 to allow WordPress options pages with multiple metaboxes and optional tabs.",
   "type": "wordpress-plugin",
   "require": {

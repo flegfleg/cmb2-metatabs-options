@@ -4,7 +4,7 @@
  * See https://github.com/rogerlos/cmb2-metatabs-options
  *
  * General Notes
- *
+ * @since 1.3.1   Added css class to tabs array
  * @since 1.3   Adds reset options button, thanks @rubengc https://github.com/rubengc
  * @since 1.1.2 Changed way empty string initially passed into filters
  * @since 1.1.1 Now in "WordPress" code style
@@ -1104,9 +1104,9 @@ class Cmb2_Metatabs_Options {
 		$tabs       = '';
 		
 		foreach ( self::$props[ $id ]['tabs'] as $tab ) {
-			
+
 			// add tabs navigation
-			$tabs .= '<a href="#" id="opt-tab-' . $tab['id'] . '" class="nav-tab opt-tab" ';
+			$tabs .= '<a href="#" id="opt-tab-' . $tab['id'] . '" class="nav-tab opt-tab ' . $tab['class'] .'" ';
 			$tabs .= 'data-optcontent="#opt-content-' . $tab['id'] . '">';
 			$tabs .= $tab['title'];
 			$tabs .= '</a>';
