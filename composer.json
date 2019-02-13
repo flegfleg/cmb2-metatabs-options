@@ -2,10 +2,6 @@
   "name": "flegfleg/cmb2-metatabs-options",
   "description": "Extends CMB2 to allow WordPress options pages with multiple metaboxes and optional tabs.",
   "type": "wordpress-plugin",
-  "require": {
-    "cmb2/cmb2": "^2.2",
-    "php": ">=5.3"
-  },
   "license": "GPLv2",
   "authors": [
     {
